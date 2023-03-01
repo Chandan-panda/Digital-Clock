@@ -1,0 +1,86 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    background: #F8BD7F;
+    color: #3E4E50;
+    margin-right: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#head-text {
+    display: flex;
+    font-family: verdana;
+    justify-content: center;
+    font-size: 5rem;
+    margin-bottom: 70px;
+}
+
+.time {
+    display: flex;
+    max-width: 90vw;
+    height: 20vh;
+    background: cyan;
+    margin: 80px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    flex-direction: coloumn;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: bolder;
+    padding: 20px;
+    padding-left: 70px;
+    box-shadow: 10px 10px 12px 0px rgb(245 172 114 / 100%);
+    background: #FACFAD
+}
+
+.time-text {
+    margin: -40px;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+#day {
+    font-size: 5rem;
+}
+
+#meridiem {
+    padding-left: 20px !important;
+}
+
+#container {
+    margin-top: 70px;
+    display: flex;
+    /*   flex-direction:row; */
+    font-size: 1rem;
+}
+
+#hours,
+#minutes,
+#seconds {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#container p {
+    width: 250px;
+    margin: 40px !important;
+}
+
+#coln {
+    margin-top: 70px;
+    font-size: 5rem;
+}
+
+/* .time-text{
+  display:block;
+} */
